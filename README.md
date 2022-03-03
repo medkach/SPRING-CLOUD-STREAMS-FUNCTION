@@ -18,3 +18,7 @@ C:\Tools\kafka>start bin\windows\kafka-topics.bat --list --zookeeper localhost:2
 
 --property print.key=true --property print.value=true --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
+/////////////////////*********************/////////////////////////***************
+==> DEPENDENCIE:LOMBOK/SPRING WEB/(MESSAGING)SPRING FOR APCHE KAFKA/SPRING FOR APACHE KAFKA STREAMS/CLOUD STREAM(SPRING CLOUD MESSAGING)
+==> ARTIFACT-ID: on peut balancer de kafka vers rabbitmq on modifiant l'aritifact id de dependence (spring-cloud-stream-binder-kafka/spring-cloud-stream-binder-rabbitmq)
+==>La même pour ARTIFACT-ID spring-cloud-stream-binder-kafka-streams
